@@ -1,3 +1,5 @@
+// XSEDE boot camp, OpenMP practice solution
+// https://www.psc.edu/resources/training/xsede-hpc-workshop-june-8-11-2021-summer-boot-camp
 /*************************************************                                                                                                                                                        
  * Laplace OpenMP C Version                                                                                                                                                                               
  *                                                                                                                                                                                                        
