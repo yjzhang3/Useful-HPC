@@ -9,3 +9,5 @@ main(int argc, char** argv) {
   MPI_Finalize();
 }
 
+// mpicc hello.c
+// mpirun -n 8 a.out
