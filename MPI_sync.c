@@ -20,7 +20,8 @@ main(int argc, char** argv){
     MPI_Recv( &numbertoreceive, 1, MPI_INT, 0, 10, MPI_COMM_WORLD, &status);
     // node 1,2,3 receives number 4 from node 0
     result = numbertoreceive * my_PE_num; // multiply by the their own PE number
-    // calculate result, which is index*4
+    // calculate result, which is index*4//
+    // does result automatically assume it is stored in a PE?
   }
   
   // why is sending serial but receiving parallel?
